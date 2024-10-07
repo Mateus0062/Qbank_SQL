@@ -19,26 +19,26 @@ TABELA CONTA
 TABELA TRANSACAO
 
 - Armazena as transações realizadas entre contas
-- ASD
-- AS
+- Chave primária: id_transacao
+- Relacionamento: Uma transação envolve duas contas (N).
 
 TABELA EMPRESTIMOS
 
 - Armazena informações sobre os empréstimos solicitados pelos clientes.
-- ASDA
-- ASD
+- Chave primária: id_emprestimo
+- Relacionamento: Uma conta pode estar associada a N empréstimos (1).
 
-TABELA Cartao_Credito
+TABELA CartaoCredito
 
 - Armazena as informações sobre os cartões de crédito solicitados pelos clientes.
-- as
-- as
+- Chave primária: id_cartao
+- Relacionamento: Uma conta pode ter N cartões de crédito (1).
 
 TABELA PagamentoServico
 
 - Armazena os pagamentos de serviços realizados pelos clientes.
--asd
-- asda
+- Chave primária: id_pagamento
+- Relacionamento: Uma conta pode registrar N pagamentos de serviços (1).
 
 # Modelo de Entidade de Relacionamento
 
