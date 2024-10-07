@@ -1,5 +1,5 @@
 CREATE TABLE Qbankdb.dbo.CLIENTES (
-	id_cliente INT PRIMARY KEY,
+    id_cliente INT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     cpf VARCHAR(11) UNIQUE NOT NULL,
     data_nascimento DATE,
